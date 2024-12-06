@@ -11,7 +11,11 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template('index.html')
-
+    
+@app.route('/privacy-policy')
+def privacy_policy():
+    return render_template('privacy-policy.html')
+    
 @app.route('/generate_qr_code', methods=['POST'])
 def generate_qr_code():
     try:
