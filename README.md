@@ -3,4 +3,4 @@
 
 用github登录vercel可一键部署此项目。
 
-例子：notecard.top
+demo：notecard.top
